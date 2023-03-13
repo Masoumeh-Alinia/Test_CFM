@@ -1,5 +1,8 @@
 
-This is an implement of Collective Factor Model (CFM) for Multi-Criteria Recommender Systems.
+This is an implement of Collective Factor Model (CFM) for Multi-Criteria Recommender Systems. 
+[Predicting ratings in multi-criteria recommender systems via a
+collective factor model](https://demalworkshop.github.io/www2021/papers/predictingratings.pdf)
+
 # Quickstart
 - Clone this repo.
 - enter the directory where you clone it, and run the following code
