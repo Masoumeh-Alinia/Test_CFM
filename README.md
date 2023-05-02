@@ -49,3 +49,13 @@ If you find *CFM* is useful for your research, please consider citing the follow
         pages={1--6},
         year={2021}
         }
+        
+        @ARTICLE{fan2023improving,
+          author={Fan, Ge and Zhang, Chaoyun and Chen, Junyang and Li, Paul and Li, Yingjie and Leung, Victor C. M.},
+          journal={IEEE Transactions on Network Science and Engineering}, 
+          title={Improving Rating Prediction in Multi-Criteria Recommender Systems Via a Collective Factor Model}, 
+          year={2023},
+          volume={},
+          number={},
+          pages={1-11},
+          doi={10.1109/TNSE.2023.3270910}}
