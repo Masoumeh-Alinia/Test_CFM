@@ -32,6 +32,7 @@ class baseMF(object):
         self.userBatch = tf.compat.v1.placeholder(tf.int32, [None], name='userBatch')
         self.itemBatch = tf.compat.v1.placeholder(tf.int32, [None], name='itemBatch')
         self.ratingBatch = tf.compat.v1.placeholder(tf.float32, [None, 1], name='ratingBatch')
+        tf.compat.v1.disable_eager_execution()
         #self.userWeight = tf.Variable(tf.random_normal([self.users, self.K]) / np.sqrt(self.users))
         #self.itemWeight = tf.Variable(tf.random_normal([self.items, self.K]) / np.sqrt(self.items))
         self.userWeight = tf.Variable(tf.random_normal([self.users, self.K],stddev = 0.1) / np.sqrt(self.K))
