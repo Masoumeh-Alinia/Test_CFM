@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 #import pandas as pd
-from .baseMF import baseMF
+from baseMF import baseMF
 import time
 #import matplotlib.pyplot as plt
 # from remtime import *
