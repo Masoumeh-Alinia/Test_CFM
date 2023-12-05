@@ -2,10 +2,10 @@
 import tensorflow as tf
 import numpy as np
 # import pandas as pd
-from .BMF import  BMF
+from BMF import  BMF
 import time
 from collections import deque
-from .regression import regressionModel
+from regression import regressionModel
 # in RMF class, the thrid columns is the global ratings.
 
 class CFM(BMF):
