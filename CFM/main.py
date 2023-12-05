@@ -1,9 +1,9 @@
 from __future__ import print_function
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from .BMF import BMF
-from .baseMF import baseMF
-from .CFM import CFM
-from .utils import getRMSE,getMAE
+from BMF import BMF
+from baseMF import baseMF
+from CFM import CFM
+from utils import getRMSE,getMAE
 import pandas as pd
 import time
 #import os
